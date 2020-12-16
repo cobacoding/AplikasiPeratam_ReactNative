@@ -3,7 +3,7 @@ import {
   View,
   ScrollView
 } from 'react-native';
-import matebook from './images/matebook.png';
+import MateriFlexBox from './MateriFlexBox';
 import SampleComponent from './SampleComponent';
 import StylingReactNativeComponent from './StylingReactNativeComponent';
 
@@ -11,8 +11,9 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
-        <StylingReactNativeComponent />
+        {/* <SampleComponent />
+        <StylingReactNativeComponent /> */}
+        <MateriFlexBox />
       </ScrollView>
     </View>
   )
