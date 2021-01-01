@@ -7,9 +7,9 @@ import {
   StyleSheet,
   ScrollView
 } from 'react-native';
-import matebook from './images/matebook.png';
+import matebook from '../../assets/image/matebook.png';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
     return (
       <View>
         <Text style={styles.text}>Styling Component</Text>
@@ -47,4 +47,4 @@ const StylingReactNativeComponent = () => {
     },
   });
 
-  export default StylingReactNativeComponent;
+  export default StylingComponent;
