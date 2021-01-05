@@ -113,7 +113,7 @@ const FlexBox = () => {
                 </View>
                 <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 20}}>
                     <Image source={{
-                        uri: 'https://placeimg.com/100/100/tech'
+                        uri: 'https://placeimg.com/640/480/nature'
                     }}
                     style={{width: 100, height: 100, borderRadius: 50, marginRight: 20}}
                     />
